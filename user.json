@@ -1,0 +1,11 @@
+[
+  { "name": "Abhi", "job": "SDE", "sal": "911", "id": 1 },
+  { "id": 6, "name": "Shaw", "job": "SDE2", "sal": "1111" },
+  { "id": 8, "name": "Tom ", "job": "Fighting ", "sal": "9090" },
+  { "id": 9, "name": "PQR", "sal": "1011", "job": "PQr" },
+  { "id": 10, "name": "SD", "sal": "121", "job": "SD" },
+  {
+    "email": "22",
+    "password": "$2b$10$uk8DNJarvE1XzKOilROyNOGF5/FtrdSgHOQqKA.q2RBxvnvRmBWUO"
+  }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="signup.css">
+
+<body>
+    <form class="form-group">
+        <h1>Sign-Up Form</h1>
+        <div>
+          <label for="Email">Email address</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <br>
+        <div>
+          <label for="Password">Password</label>
+          <input type="password" class="form-control" id="Password" placeholder="Password">
+        </div>
+        <br>
+        <button onclick="register()">Register</button>
+        <br>
+        <br>
+        <label for="exampleInput">Already Have an Account</label>
+        <button>
+            <a type="button" href="login.html">Log-In</a>
+        </button>
+      </form>
+</body>
+<script src="api.js"></script>
+<script src="signup.js"></script>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <h1>Employee's Data</h1>
+        <input type="hidden" id="empid">
+        <label for="Name">Name</label>
+        <input type="text" id="name" placeholder="Full Name"><br><br>
+        <label for="Job">Job</label>
+        <input type="text" id="job" placeholder="Profession"> <br><br>
+        <label for="Salary">Salary</label>
+        <input type="number" id="sal" placeholder="Pay"><br><br>
+        <button  id="add" onclick="Add()"> Add</button>
+        <button  id="update" onclick="update()" disabled>Update</button>
+        <br>
+        <br>
+        <table id="box">
+        </table>
+    </div>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="api.js"></script>
+    <script src="scripts.js"></script> 
+</body>
+</html>
